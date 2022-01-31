@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(99, 51, 51);
+}
+#main #s{
+    position: relative;
+    width: 30%;
+    height: 50%;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s h1{
+    position: absolute;
+    top: 2%;
+    left: 28px;
+    font-size: 15px;
+    color: rgb(43, 46, 46);
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+#s a{
+    position: absolute;
+    top: 2%;
+    left: 10px;
+    font-size: 15px;
+    font-family: fantasy;
+    text-decoration: none;
+    color: rgb(51, 49, 49);
+}
+#san h2{
+    position: absolute;
+    top: 84%;
+    left: 17%;
+    font-size: 20px;
+    font-family: monospace;
+    color: whitesmoke;
+}
+#san h6{
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#san h5{
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+#hii #harsh{
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    font-size: 16px;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+#hii h4{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    font-size: 15px;
+    font-family: monospace ;
+
+}
+#hii h5{
+    position: absolute;
+    top: 50%;
+    left: 97%;
+    writing-mode: vertical-rl;
+    font-size: 10px;
+    font-family:cursive;
+    letter-spacing: 5px;
+    color: whitesmoke;
+}
+#hii h6{
+    position: absolute;
+    top: 7%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+#hii a{
+    position: absolute;
+    top: 49%;
+    left: 4%;
+    font-size: 60px;
+    text-decoration:none ;
+    color: rgb(74, 124, 69);
+}
+#main #a{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(63, 124, 124);
+  /* background-image: url(); */
+}
+
+#hii h1{
+    position: absolute;
+    top: 65%;
+    left:25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+#hii p{
+    position: absolute;
+    top: 75%;
+    left:25px;
+    font-size: 15px;
+    color: rgb(62, 63, 60);
+}
+#main #t{
+    position: relative;
+    width: 20%;
+    height: 50%;
+    /* background-color: white; */
+    background-image: url(https://images.unsplash.com/photo-1597237613359-f9e446d860ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#m h2{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 200;
+    color:rgb(58, 49, 28) ;
+}
+#m h3{
+    position: absolute;
+    top: 5%;
+    left: 89%;
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+}
+#m h1{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#m p{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    font-size: 10px;
+    /* font-weight: 500px;   */
+    letter-spacing: 2px;
+    color: rgb(37, 36, 36);
+}
+#main1{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+#main1 #y{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color:whitesmoke ;
+}
+#j h2{
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    font-size: 25px;
+
+}
+#j h1{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 44px;
+    /* font-family: fantasy; */
+    letter-spacing: 5px;
+}
+#i h1{
+    position: absolute;
+    top:55%;
+    left: 15%;
+    font-size: 20px;
+    font-family: monospace;
+    /* font-weight: 200; */
+    letter-spacing: 3px;
+}
+#i p{
+    position: absolute;
+    top:65%;
+    left: 15%;
+    font-size: 10px;
+}
+#k h1{
+    position: absolute;
+    top:55%;
+    left: 52%;
+    font-size: 20px;
+    font-family: monospace;
+    /* font-weight: 200; */
+    letter-spacing: 3px;
+}
+#k p{
+    position: absolute;
+    top:65%;
+    left: 52%;
+    font-size: 10px;
+}
+#l h1{
+    position: absolute;
+    top: 53%;
+    left: 96%;
+    writing-mode: vertical-lr;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+#link a{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    color: black;
+    font-size: 20px;
+    text-decoration:none ;
+}
+#link1 a{
+    position: absolute;
+    top: 20%;
+    left: 95%;
+    color: black;
+    font-size: 20px;
+    text-decoration:none ;
+}
+#link2 a{
+    position: absolute;
+    top: 30%;
+    left: 95%;
+    color: black;
+    font-size: 20px;
+    text-decoration:none ;
+}
+#link3 a{
+    position: absolute;
+    top: 40%;
+    left: 95%;
+    color: black;
+    font-size: 20px;
+    text-decoration:none ;
+}
+#main1 #a{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color:rgb(90, 82, 95) ; */
+   background-image: url(https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGZvcmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+   background-position: center;
+   background-size: cover;
+   overflow: hidden;
+}
+#v img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* bottom: -200px; */
+    top: 80%;
+}
+#v h1{
+    position: absolute;
+    top: 73%;
+    left: 2%;
+    font-size: 13px;
+    font-family:fantasy;
+    font-weight: 500;
+    letter-spacing: 8px;
+    color: rgb(109, 101, 101);
+}
+
+
+#p a{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    font-size: 60px;
+    color:rgb(78, 63, 63) ;
+    border-radius: 150px;   
+}
+
+#h #n:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(231, 229, 229);
+
+}
+#h a:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(110, 0, 0);
+}
+#hii #harsh:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(32, 185, 32);
+}
+#hii h4:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(32, 185, 32);
+}
+#hii h6:hover{
+    color: transparent;
+    width: 5%;
+    -webkit-text-stroke: 2px rgb(32, 185, 32);
+}
+#hii #hello:hover{
+    color: transparent;
+    /* width: 2px;     */
+    letter-spacing: 5px;
+    -webkit-text-stroke: 2px rgb(32, 185, 32);
+}
+#hii  a:hover{
+    color: transparent;
+   -webkit-text-stroke: 4px rgba(0, 219, 0, 0.932);
+   /* background-color: black; */
+}
+#hii  p:hover{
+    color: transparent;
+   -webkit-text-stroke: 2px rgba(194, 209, 209, 0.932);
+}
+#hii h5:hover{
+    color: transparent;
+    /* width: 30px; */
+    letter-spacing: 5px;
+    transform: rotate(180deg);
+    -webkit-text-stroke: 2px rgba(12, 12, 12, 0.932);
+    cursor: pointer;
+}
+#m h2:hover{
+    color: transparent;
+    -webkit-text-stroke: 3px rgba(95, 83, 83, 0.932);
+}
+#m h3:hover{
+    color: transparent;
+    -webkit-text-stroke: 3px rgba(95, 83, 83, 0.932);
+}
+#m h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 3px rgba(95, 83, 83, 0.932);
+}
+#m p:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(143, 9, 9, 0.932);
+}
+#j h2:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(143, 9, 9, 0.932);
+}
+#j h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 4px rgba(179, 128, 19, 0.308);                                 
+}
+#i h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(7, 204, 23, 0.932);
+}
+#i p:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(110, 136, 136, 0.932);
+}
+#k h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(45, 78, 185, 0.932);
+}
+#k p:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(137, 20, 204, 0.932);
+}
+#l h1:hover{
+    color: transparent;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 2px rgba(125, 125, 126, 0.932);
+    transform: rotate(180deg)
+}
+#link a:hover{
+    color: transparent;
+    /* letter-spacing: 5px; */
+    width: 20px;
+    -webkit-text-stroke: 2px rgba(1, 1, 168, 0.932);
+}
+#link1 a:hover{
+    color: transparent;
+    /* letter-spacing: 5px; */
+    width: 20px;
+    -webkit-text-stroke: 2px rgba(92, 92, 168, 0.932);
+}
+#link2 a:hover{
+    color: transparent;
+    /* letter-spacing: 5px; */
+    width: 20px;
+    -webkit-text-stroke: 2px rgba(167, 61, 84, 0.932);
+}
+#link3 a:hover{
+    color: transparent;
+    /* letter-spacing: 5px; */
+    width: 20px;
+    -webkit-text-stroke: 2px rgba(96, 96, 187, 0.932);
+}
+#v h1:hover{
+    color: transparent;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 2px rgba(14, 14, 17, 0.932);
+}
